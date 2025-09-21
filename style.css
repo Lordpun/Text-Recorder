@@ -64,7 +64,7 @@ main button:active {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 75%;
-  height: 50%;
+  min-height: 50vh;
   border: 1px solid #b8b8b8;
   border-radius: 10px;
   background-color: #fff;
