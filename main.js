@@ -35,5 +35,6 @@ const app = Vue.createApp({
   }
 });
 
+app.component("inputField", inputField);
 app.component("popupWin", popup);
 app.mount('#app');

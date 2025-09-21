@@ -17,3 +17,14 @@ const popup = {
     }
   }
 };
+
+// Put here instead of a new JS file because it was heavily releated
+const inputField = {
+  template: `
+  <section>
+    <slot name="input"></slot>
+    
+    <button>Enter</button>
+  </section>
+  `
+};
